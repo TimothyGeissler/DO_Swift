@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ClZ-N1-Xv4">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ADAM.CG PRO.otf">
+            <string>ADAM.CGPRO</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Page View Controller-->
+        <scene sceneID="9HX-gI-cg2">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="ClZ-N1-Xv4" customClass="PageViewController" customModule="do" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mii-EU-Rwx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-78" y="-984"/>
+        </scene>
+        <!--View Controller12-->
+        <scene sceneID="FpI-DI-UWU">
+            <objects>
+                <viewController storyboardIdentifier="sb12" id="dpO-jb-6G0" customClass="ViewController12" customModule="do" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tkl-HO-2lT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cpy-TJ-qtb">
+                                <rect key="frame" x="16" y="303" width="382" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.485666286" blue="0.61148747489999999" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="0.20000000000000001" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                            </textView>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lmq-7U-tLY">
+                                <rect key="frame" x="0.0" y="453" width="414" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <date key="date" timeIntervalSinceReferenceDate="551962800.93358099">
+                                    <!--2018-06-29 11:00:00 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="guG-5X-1yV">
+                                <rect key="frame" x="10" y="677" width="394" height="29"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="17"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="0.80000000000000004" green="1" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="timeClicked12:" destination="dpO-jb-6G0" eventType="touchUpInside" id="juG-kQ-YNk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7I-tK-mo2">
+                                <rect key="frame" x="349" y="20" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="image-12"/>
+                                <connections>
+                                    <action selector="AlarmClicked12:" destination="dpO-jb-6G0" eventType="touchUpInside" id="2Yb-ND-Ihc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80000000000000004" green="1" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="guG-5X-1yV" firstAttribute="leading" secondItem="bP4-AZ-dri" secondAttribute="leading" constant="10" id="0pl-KV-roV"/>
+                            <constraint firstItem="bP4-AZ-dri" firstAttribute="trailing" secondItem="guG-5X-1yV" secondAttribute="trailing" constant="10" id="VUK-Mb-J7m"/>
+                            <constraint firstItem="bP4-AZ-dri" firstAttribute="bottom" secondItem="guG-5X-1yV" secondAttribute="bottom" constant="30" id="sJD-Lg-rDp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bP4-AZ-dri"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Qqr-Gr-f7D" appends="YES" id="TvQ-Hy-t1A"/>
+                            <outletCollection property="gestureRecognizers" destination="khV-2O-qfG" appends="YES" id="siE-Vg-BMv"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="AlarmButton12" destination="n7I-tK-mo2" id="J18-to-EMl"/>
+                        <outlet property="label12" destination="cpy-TJ-qtb" id="do1-if-eYm"/>
+                        <outlet property="timeButton12" destination="guG-5X-1yV" id="kUv-gj-SVb"/>
+                        <outlet property="timePicker12" destination="Lmq-7U-tLY" id="gvv-Ds-gAd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="obp-5q-hlU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Qqr-Gr-f7D">
+                    <connections>
+                        <action selector="tapped12:" destination="dpO-jb-6G0" id="DoR-ll-Rus"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="khV-2O-qfG">
+                    <connections>
+                        <action selector="longPress12:" destination="dpO-jb-6G0" id="iSF-Mz-Ste"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="7391" y="-272"/>
+        </scene>
+        <!--View Controller6-->
+        <scene sceneID="MXn-55-tgv">
+            <objects>
+                <viewController storyboardIdentifier="sb06" id="Fbc-br-7w9" customClass="ViewController6" customModule="do" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3pZ-IR-V3E">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KJj-df-KiT">
+                                <rect key="frame" x="16" y="303" width="382" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="0.9882352941176471" green="0.5490196078431373" blue="0.50980392156862742" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                            </textView>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hs-Mt-VVB">
+                                <rect key="frame" x="0.0" y="451" width="414" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="551962800.93358099">
+                                    <!--2018-06-29 11:00:00 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eK4-W9-Vd8">
+                                <rect key="frame" x="10" y="677" width="394" height="29"/>
+                                <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="17"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="timeClicked6:" destination="Fbc-br-7w9" eventType="touchUpInside" id="K9Y-Lr-COd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTD-ZV-H04">
+                                <rect key="frame" x="349" y="20" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="image-6"/>
+                                <connections>
+                                    <action selector="AlarmClicked6:" destination="Fbc-br-7w9" eventType="touchUpInside" id="lgG-qa-Bwx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.57647058823529407" green="0.9882352941176471" blue="0.8784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="AWq-Yb-pzy" firstAttribute="bottom" secondItem="eK4-W9-Vd8" secondAttribute="bottom" constant="30" id="6Bd-mS-yhn"/>
+                            <constraint firstItem="AWq-Yb-pzy" firstAttribute="trailing" secondItem="eK4-W9-Vd8" secondAttribute="trailing" constant="10" id="J74-TB-COC"/>
+                            <constraint firstItem="eK4-W9-Vd8" firstAttribute="top" secondItem="4hs-Mt-VVB" secondAttribute="bottom" constant="10" id="Zi1-Bp-a4w"/>
+                            <constraint firstItem="4hs-Mt-VVB" firstAttribute="leading" secondItem="AWq-Yb-pzy" secondAttribute="leading" id="eMt-fu-xNV"/>
+                            <constraint firstItem="4hs-Mt-VVB" firstAttribute="trailing" secondItem="AWq-Yb-pzy" secondAttribute="trailing" id="lKN-xa-hJY"/>
+                            <constraint firstItem="eK4-W9-Vd8" firstAttribute="leading" secondItem="AWq-Yb-pzy" secondAttribute="leading" constant="10" id="o9k-sN-Chf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="AWq-Yb-pzy"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="5X7-4L-lUa" appends="YES" id="KCn-Ze-cOg"/>
+                            <outletCollection property="gestureRecognizers" destination="Hc7-1t-BDz" appends="YES" id="OOa-Qu-ht1"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="AlarmButton6" destination="BTD-ZV-H04" id="bVK-ab-N6g"/>
+                        <outlet property="label6" destination="KJj-df-KiT" id="g19-La-ZFp"/>
+                        <outlet property="timeButton6" destination="eK4-W9-Vd8" id="eyn-1W-MCc"/>
+                        <outlet property="timePicker6" destination="4hs-Mt-VVB" id="AJN-u0-yra"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NwL-sH-dVL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="5X7-4L-lUa">
+                    <connections>
+                        <action selector="tapped6:" destination="Fbc-br-7w9" id="3tx-py-bHm"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="Hc7-1t-BDz">
+                    <connections>
+                        <action selector="longPress6:" destination="Fbc-br-7w9" id="O2B-95-KVT"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="3066" y="-272"/>
+        </scene>
+        <!--View Controller7-->
+        <scene sceneID="YgE-zq-vxS">
+            <objects>
+                <viewController storyboardIdentifier="sb07" id="gv5-Mx-cSK" customClass="ViewController7" customModule="do" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ndv-EU-kxg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="i1C-tH-pTU">
+                                <rect key="frame" x="16" y="303" width="382" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="1" green="0.65575196041989958" blue="0.44364847389511353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                            </textView>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4q0-VX-991">
+                                <rect key="frame" x="0.0" y="451" width="414" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="551962800.93358099">
+                                    <!--2018-06-29 11:00:00 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTY-Wm-fPW">
+                                <rect key="frame" x="10" y="677" width="394" height="29"/>
+                                <color key="backgroundColor" red="1" green="0.63180524199999999" blue="0.51895045989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="17"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="timeClicked7:" destination="gv5-Mx-cSK" eventType="touchUpInside" id="HnV-0f-3UX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DBw-lG-w6N">
+                                <rect key="frame" x="349" y="20" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="image-7"/>
+                                <connections>
+                                    <action selector="AlarmClicked7:" destination="gv5-Mx-cSK" eventType="touchUpInside" id="vP9-fK-8cM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.49275849042900044" green="0.95957923945317491" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="4q0-VX-991" firstAttribute="leading" secondItem="mDt-CZ-tN6" secondAttribute="leading" id="5nx-OK-pMy"/>
+                            <constraint firstItem="HTY-Wm-fPW" firstAttribute="top" secondItem="4q0-VX-991" secondAttribute="bottom" constant="10" id="S85-58-zox"/>
+                            <constraint firstItem="HTY-Wm-fPW" firstAttribute="leading" secondItem="mDt-CZ-tN6" secondAttribute="leading" constant="10" id="TUJ-Bi-NV3"/>
+                            <constraint firstItem="4q0-VX-991" firstAttribute="trailing" secondItem="mDt-CZ-tN6" secondAttribute="trailing" id="Wes-Mt-8ZB"/>
+                            <constraint firstItem="mDt-CZ-tN6" firstAttribute="bottom" secondItem="HTY-Wm-fPW" secondAttribute="bottom" constant="30" id="gji-PE-uVp"/>
+                            <constraint firstItem="mDt-CZ-tN6" firstAttribute="trailing" secondItem="HTY-Wm-fPW" secondAttribute="trailing" constant="10" id="h8F-pz-cwz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mDt-CZ-tN6"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="jMh-ip-Bp6" appends="YES" id="y2r-t9-kDi"/>
+                            <outletCollection property="gestureRecognizers" destination="JlJ-6T-8HS" appends="YES" id="zHw-3U-KXv"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="AlarmButton7" destination="DBw-lG-w6N" id="wtQ-ut-5Da"/>
+                        <outlet property="label7" destination="i1C-tH-pTU" id="9z1-P0-zP3"/>
+                        <outlet property="timeButton7" destination="HTY-Wm-fPW" id="fIC-87-s7r"/>
+                        <outlet property="timePicker7" destination="4q0-VX-991" id="F5p-0d-wQc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RXh-PX-HV8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="jMh-ip-Bp6">
+                    <connections>
+                        <action selector="tapped7:" destination="gv5-Mx-cSK" id="8Qf-LA-D1z"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="JlJ-6T-8HS">
+                    <connections>
+                        <action selector="longPress7:" destination="gv5-Mx-cSK" id="2gL-BF-fvj"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="3766" y="-272"/>
+        </scene>
+        <!--View Controller9-->
+        <scene sceneID="SUz-8t-me1">
+            <objects>
+                <viewController storyboardIdentifier="sb09" id="5Us-NR-NYg" customClass="ViewController9" customModule="do" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="A9K-ez-JDW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="W4X-kg-V0C">
+                                <rect key="frame" x="16" y="303" width="382" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="0.40000000000000002" green="1" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                            </textView>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="709-dK-KRP">
+                                <rect key="frame" x="0.0" y="451" width="414" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="551962800.93358099">
+                                    <!--2018-06-29 11:00:00 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nn-dq-Bqx">
+                                <rect key="frame" x="10" y="677" width="394" height="29"/>
+                                <color key="backgroundColor" red="0.40000000000000002" green="1" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="17"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="timeClicked9:" destination="5Us-NR-NYg" eventType="touchUpInside" id="n9v-eG-pqZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3Q-MF-Dwy">
+                                <rect key="frame" x="349" y="20" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="image-9"/>
+                                <connections>
+                                    <action selector="AlarmClicked9:" destination="5Us-NR-NYg" eventType="touchUpInside" id="slu-ca-cj5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="8nn-dq-Bqx" firstAttribute="top" secondItem="709-dK-KRP" secondAttribute="bottom" constant="10" id="5qE-jb-J6d"/>
+                            <constraint firstItem="709-dK-KRP" firstAttribute="trailing" secondItem="cTh-Un-IcO" secondAttribute="trailing" id="8NE-Ip-f9T"/>
+                            <constraint firstItem="8nn-dq-Bqx" firstAttribute="leading" secondItem="cTh-Un-IcO" secondAttribute="leading" constant="10" id="JX9-MN-Oe5"/>
+                            <constraint firstItem="709-dK-KRP" firstAttribute="leading" secondItem="cTh-Un-IcO" secondAttribute="leading" id="Qcr-ok-ZK2"/>
+                            <constraint firstItem="cTh-Un-IcO" firstAttribute="trailing" secondItem="8nn-dq-Bqx" secondAttribute="trailing" constant="10" id="ay3-XP-TBI"/>
+                            <constraint firstItem="cTh-Un-IcO" firstAttribute="bottom" secondItem="8nn-dq-Bqx" secondAttribute="bottom" constant="30" id="nsi-vF-Rg6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cTh-Un-IcO"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="MyM-8e-iSE" appends="YES" id="5Ec-On-OkQ"/>
+                            <outletCollection property="gestureRecognizers" destination="wQn-l2-lId" appends="YES" id="aL3-ee-LbF"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="AlarmButton9" destination="I3Q-MF-Dwy" id="EkE-a8-Vee"/>
+                        <outlet property="label9" destination="W4X-kg-V0C" id="4YX-GR-OuK"/>
+                        <outlet property="timeButton9" destination="8nn-dq-Bqx" id="mco-Ti-ehG"/>
+                        <outlet property="timePicker9" destination="709-dK-KRP" id="zlO-a0-P0b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AMP-kN-tl1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="MyM-8e-iSE">
+                    <connections>
+                        <action selector="tapped9:" destination="5Us-NR-NYg" id="V4c-lY-CaD"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="wQn-l2-lId">
+                    <connections>
+                        <action selector="longPress9:" destination="5Us-NR-NYg" id="9Qf-mH-s9j"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="5212" y="-272"/>
+        </scene>
+        <!--View Controller11-->
+        <scene sceneID="Lfv-yV-dU9">
+            <objects>
+                <viewController storyboardIdentifier="sb11" id="fFN-CJ-xfG" customClass="ViewController11" customModule="do" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tSD-iC-Qt3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="F36-ST-Qpw">
+                                <rect key="frame" x="16" y="303" width="382" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.48566628598150874" blue="0.61148747493256117" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="0.32461476978284798" green="1" blue="0.77443373925703907" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                            </textView>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAC-jJ-uPh">
+                                <rect key="frame" x="0.0" y="451" width="414" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="551962800.93358099">
+                                    <!--2018-06-29 11:00:00 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILL-Ni-gYM">
+                                <rect key="frame" x="10" y="677" width="394" height="29"/>
+                                <color key="backgroundColor" red="0.59394464114464063" green="0.98829740290000001" blue="0.77251168674280302" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="17"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="1" green="0.55409528830823196" blue="0.65973065414428045" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="timeClicked11:" destination="fFN-CJ-xfG" eventType="touchUpInside" id="XYs-R4-Hlt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehb-5D-iVX">
+                                <rect key="frame" x="349" y="20" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="image-11"/>
+                                <connections>
+                                    <action selector="AlarmClicked11:" destination="fFN-CJ-xfG" eventType="touchUpInside" id="WJp-oj-etA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.53428659114623889" blue="0.63070876058048186" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="ILL-Ni-gYM" firstAttribute="leading" secondItem="nJ4-Sx-ruL" secondAttribute="leading" constant="10" id="7pC-uc-fhm"/>
+                            <constraint firstItem="gAC-jJ-uPh" firstAttribute="leading" secondItem="nJ4-Sx-ruL" secondAttribute="leading" id="AAo-ZV-MQd"/>
+                            <constraint firstItem="nJ4-Sx-ruL" firstAttribute="bottom" secondItem="ILL-Ni-gYM" secondAttribute="bottom" constant="30" id="ROQ-5s-Kjl"/>
+                            <constraint firstItem="ILL-Ni-gYM" firstAttribute="top" secondItem="gAC-jJ-uPh" secondAttribute="bottom" constant="10" id="iPN-lS-ZjZ"/>
+                            <constraint firstItem="nJ4-Sx-ruL" firstAttribute="trailing" secondItem="ILL-Ni-gYM" secondAttribute="trailing" constant="10" id="lsg-wK-B3a"/>
+                            <constraint firstItem="gAC-jJ-uPh" firstAttribute="trailing" secondItem="nJ4-Sx-ruL" secondAttribute="trailing" id="ziO-zq-CTb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nJ4-Sx-ruL"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Egj-7I-Ona" appends="YES" id="DyT-BQ-uXY"/>
+                            <outletCollection property="gestureRecognizers" destination="wCO-1L-12y" appends="YES" id="jk8-bP-c9Z"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="AlarmButton11" destination="ehb-5D-iVX" id="cBO-EC-e4h"/>
+                        <outlet property="label11" destination="F36-ST-Qpw" id="eVg-kF-PmA"/>
+                        <outlet property="timeButton11" destination="ILL-Ni-gYM" id="fyb-qi-VlM"/>
+                        <outlet property="timePicker11" destination="gAC-jJ-uPh" id="axD-bs-Kwi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EfM-1M-eDb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Egj-7I-Ona">
+                    <connections>
+                        <action selector="tapped11:" destination="fFN-CJ-xfG" id="9nd-zR-frv"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="wCO-1L-12y">
+                    <connections>
+                        <action selector="longPress11:" destination="fFN-CJ-xfG" id="cs0-g5-3Yh"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="6670" y="-272"/>
+        </scene>
+        <!--View Controller8-->
+        <scene sceneID="a0j-yV-9QO">
+            <objects>
+                <viewController storyboardIdentifier="sb08" id="sef-Do-A1L" customClass="ViewController8" customModule="do" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LGO-dP-oIm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Hzg-hO-Tao">
+                                <rect key="frame" x="16" y="303" width="382" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="1" green="0.80000000000000004" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                            </textView>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tNi-4d-SH6">
+                                <rect key="frame" x="0.0" y="451" width="414" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="551962800.93358099">
+                                    <!--2018-06-29 11:00:00 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNk-bC-sS9">
+                                <rect key="frame" x="10" y="677" width="394" height="29"/>
+                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="17"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="0.0" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="timeClicked8:" destination="sef-Do-A1L" eventType="touchUpInside" id="a8k-ne-hWV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQY-m5-eEa">
+                                <rect key="frame" x="349" y="20" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="image-8"/>
+                                <connections>
+                                    <action selector="AlarmClicked8:" destination="sef-Do-A1L" eventType="touchUpInside" id="4sW-Aj-osP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="jgf-98-dXL" firstAttribute="trailing" secondItem="rNk-bC-sS9" secondAttribute="trailing" constant="10" id="093-Mc-5g7"/>
+                            <constraint firstItem="jgf-98-dXL" firstAttribute="bottom" secondItem="rNk-bC-sS9" secondAttribute="bottom" constant="30" id="BZ8-8w-aO1"/>
+                            <constraint firstItem="rNk-bC-sS9" firstAttribute="leading" secondItem="jgf-98-dXL" secondAttribute="leading" constant="10" id="MQq-Fs-6yx"/>
+                            <constraint firstItem="rNk-bC-sS9" firstAttribute="top" secondItem="tNi-4d-SH6" secondAttribute="bottom" constant="10" id="hul-hd-2bv"/>
+                            <constraint firstItem="tNi-4d-SH6" firstAttribute="trailing" secondItem="jgf-98-dXL" secondAttribute="trailing" id="iSu-If-Rkk"/>
+                            <constraint firstItem="tNi-4d-SH6" firstAttribute="leading" secondItem="jgf-98-dXL" secondAttribute="leading" id="jp0-Zh-5ZA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jgf-98-dXL"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="N8X-c7-CKE" appends="YES" id="IIm-p0-xFs"/>
+                            <outletCollection property="gestureRecognizers" destination="kS2-fS-Tb7" appends="YES" id="UTS-pJ-KzW"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="AlarmButton8" destination="hQY-m5-eEa" id="wS8-C0-JYT"/>
+                        <outlet property="label8" destination="Hzg-hO-Tao" id="Ybp-Lz-iIp"/>
+                        <outlet property="timeButton8" destination="rNk-bC-sS9" id="CQa-hy-o9b"/>
+                        <outlet property="timePicker8" destination="tNi-4d-SH6" id="k7V-jh-ESd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NT4-q5-7Mk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="N8X-c7-CKE">
+                    <connections>
+                        <action selector="tapped8:" destination="sef-Do-A1L" id="1Yt-uQ-u0r"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="kS2-fS-Tb7">
+                    <connections>
+                        <action selector="longPress8:" destination="sef-Do-A1L" id="zIJ-Qa-hKZ"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="4487" y="-272"/>
+        </scene>
+        <!--View Controller10-->
+        <scene sceneID="tFx-iN-Pwv">
+            <objects>
+                <viewController storyboardIdentifier="sb10" id="cxw-uf-Qzs" customClass="ViewController10" customModule="do" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LM1-fM-aeQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5Fo-3b-dGc">
+                                <rect key="frame" x="16" y="303" width="382" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="1" green="1" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                            </textView>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2jh-hk-Jgp">
+                                <rect key="frame" x="0.0" y="449" width="414" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <date key="date" timeIntervalSinceReferenceDate="551962800.93358099">
+                                    <!--2018-06-29 11:00:00 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKP-os-5t8">
+                                <rect key="frame" x="10" y="677" width="394" height="29"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="17"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="1" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="timeClicked10:" destination="cxw-uf-Qzs" eventType="touchUpInside" id="Yyt-s6-dxr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9w-Pi-b7n">
+                                <rect key="frame" x="349" y="20" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="image-10"/>
+                                <connections>
+                                    <action selector="AlarmClicked10:" destination="cxw-uf-Qzs" eventType="touchUpInside" id="Q37-zm-wbX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="QgY-33-qvA" firstAttribute="bottom" secondItem="iKP-os-5t8" secondAttribute="bottom" constant="30" id="3Rv-bR-PhL"/>
+                            <constraint firstItem="QgY-33-qvA" firstAttribute="trailing" secondItem="iKP-os-5t8" secondAttribute="trailing" constant="10" id="8Sl-7q-sKs"/>
+                            <constraint firstItem="iKP-os-5t8" firstAttribute="leading" secondItem="QgY-33-qvA" secondAttribute="leading" constant="10" id="Xt4-Fa-Ljw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="QgY-33-qvA"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Lcb-LX-uxE" appends="YES" id="eir-0o-yCN"/>
+                            <outletCollection property="gestureRecognizers" destination="uev-Tq-iwZ" appends="YES" id="Caq-lK-O4M"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="AlarmButton10" destination="h9w-Pi-b7n" id="7X3-Ht-Cbm"/>
+                        <outlet property="label10" destination="5Fo-3b-dGc" id="MRP-ur-ygN"/>
+                        <outlet property="timeButton10" destination="iKP-os-5t8" id="yC0-gd-BXI"/>
+                        <outlet property="timePicker10" destination="2jh-hk-Jgp" id="hb1-QD-0IN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="frB-kb-OEi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Lcb-LX-uxE">
+                    <connections>
+                        <action selector="tapped10:" destination="cxw-uf-Qzs" id="1Jn-vY-ais"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="uev-Tq-iwZ">
+                    <connections>
+                        <action selector="longPress10:" destination="cxw-uf-Qzs" id="gpE-hM-bbr"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="5935" y="-272"/>
+        </scene>
+        <!--View Controller1-->
+        <scene sceneID="s5o-QU-QeO">
+            <objects>
+                <viewController storyboardIdentifier="sb01" id="ViO-d8-MJv" customClass="ViewController1" customModule="do" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cg9-Xr-ZM5" customClass="SBViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="O6u-i2-n0h">
+                                <rect key="frame" x="16" y="303" width="382" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="0.59999999999999998" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="done"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCz-KU-ZmN">
+                                <rect key="frame" x="10" y="677" width="394" height="29"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="17"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="timeButton1:" destination="ViO-d8-MJv" eventType="touchUpInside" id="Zkz-DT-kmf"/>
+                                </connections>
+                            </button>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VSw-Va-fcc">
+                                <rect key="frame" x="0.0" y="451" width="414" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="551962800.93358099">
+                                    <!--2018-06-29 11:00:00 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RPc-gw-Acg">
+                                <rect key="frame" x="349" y="20" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="image"/>
+                                <connections>
+                                    <action selector="AlarmClicked1:" destination="ViO-d8-MJv" eventType="touchUpInside" id="hWP-cp-6He"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxL-cj-TZp">
+                                <rect key="frame" x="152" y="150" width="110" height="0.0"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="38"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.49411764705882355" blue="0.47450980392156861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="dCz-KU-ZmN" firstAttribute="top" secondItem="VSw-Va-fcc" secondAttribute="bottom" constant="10" id="13F-Gc-BCa"/>
+                            <constraint firstItem="tX4-3g-9K1" firstAttribute="trailing" secondItem="dCz-KU-ZmN" secondAttribute="trailing" constant="10" id="S9I-wB-miP"/>
+                            <constraint firstItem="tX4-3g-9K1" firstAttribute="trailing" secondItem="dxL-cj-TZp" secondAttribute="trailing" constant="152" id="Txk-lG-4Lk"/>
+                            <constraint firstItem="dCz-KU-ZmN" firstAttribute="leading" secondItem="tX4-3g-9K1" secondAttribute="leading" constant="10" id="cGs-HW-viN"/>
+                            <constraint firstItem="tX4-3g-9K1" firstAttribute="bottom" secondItem="dCz-KU-ZmN" secondAttribute="bottom" constant="30" id="ftg-cc-T8v"/>
+                            <constraint firstItem="VSw-Va-fcc" firstAttribute="trailing" secondItem="tX4-3g-9K1" secondAttribute="trailing" id="lph-W3-jtX"/>
+                            <constraint firstItem="dxL-cj-TZp" firstAttribute="leading" secondItem="tX4-3g-9K1" secondAttribute="leading" constant="152" id="maW-Ek-fCU"/>
+                            <constraint firstItem="dxL-cj-TZp" firstAttribute="top" secondItem="tX4-3g-9K1" secondAttribute="top" constant="130" id="qS5-rJ-s7t"/>
+                            <constraint firstItem="VSw-Va-fcc" firstAttribute="leading" secondItem="tX4-3g-9K1" secondAttribute="leading" id="y3m-tR-LLz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tX4-3g-9K1"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="VdY-83-r44" appends="YES" id="GTn-EX-A9R"/>
+                            <outletCollection property="gestureRecognizers" destination="jXm-Y2-8l8" appends="YES" id="Ti5-Tw-B0c"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="AlarmButton1" destination="RPc-gw-Acg" id="HIa-yo-V6m"/>
+                        <outlet property="label1" destination="O6u-i2-n0h" id="FN5-8m-WGK"/>
+                        <outlet property="timeButton1" destination="dCz-KU-ZmN" id="BxO-sN-Spk"/>
+                        <outlet property="timePicker1" destination="VSw-Va-fcc" id="b5U-QW-khn"/>
+                        <outlet property="timerLabel" destination="dxL-cj-TZp" id="2IR-HY-eOI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mMq-Kd-3cs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="VdY-83-r44">
+                    <connections>
+                        <action selector="tapped1:" destination="ViO-d8-MJv" id="8eI-pa-hAs"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="jXm-Y2-8l8">
+                    <connections>
+                        <action selector="longPress1:" destination="ViO-d8-MJv" id="xx9-PN-Kli"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-484" y="-272.66009852216752"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="sfj-AQ-bej">
+            <objects>
+                <viewController storyboardIdentifier="sb02" id="g7O-X6-b86" customClass="ViewController2" customModule="do" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FNx-Qc-AOe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sdo-8D-J3e">
+                                <rect key="frame" x="16" y="303" width="382" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="0.40000000000000002" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="done"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lva-8d-ldA">
+                                <rect key="frame" x="10" y="677" width="394" height="29"/>
+                                <color key="backgroundColor" red="0.40000000000000002" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="17"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="timeButtonClicked:" destination="g7O-X6-b86" eventType="touchUpInside" id="jeF-l0-qvd"/>
+                                </connections>
+                            </button>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KRl-tD-FwK">
+                                <rect key="frame" x="0.0" y="451" width="414" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="551962800.93358099">
+                                    <!--2018-06-29 11:00:00 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zIW-3x-rh3">
+                                <rect key="frame" x="349" y="20" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="image-2"/>
+                                <connections>
+                                    <action selector="AlarmClicked2:" destination="g7O-X6-b86" eventType="touchUpInside" id="rKC-im-R8m"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Lva-8d-ldA" firstAttribute="leading" secondItem="YEh-2m-crv" secondAttribute="leading" constant="10" id="E5P-Rt-oAY"/>
+                            <constraint firstItem="Lva-8d-ldA" firstAttribute="top" secondItem="KRl-tD-FwK" secondAttribute="bottom" constant="10" id="Gd5-ED-qAq"/>
+                            <constraint firstItem="YEh-2m-crv" firstAttribute="bottom" secondItem="Lva-8d-ldA" secondAttribute="bottom" constant="30" id="UMZ-MH-DsO"/>
+                            <constraint firstItem="KRl-tD-FwK" firstAttribute="leading" secondItem="YEh-2m-crv" secondAttribute="leading" id="gOW-C0-uGh"/>
+                            <constraint firstItem="YEh-2m-crv" firstAttribute="trailing" secondItem="Lva-8d-ldA" secondAttribute="trailing" constant="10" id="vY7-Jl-c5P"/>
+                            <constraint firstItem="KRl-tD-FwK" firstAttribute="trailing" secondItem="YEh-2m-crv" secondAttribute="trailing" id="zEe-CR-qkM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YEh-2m-crv"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="8qa-TR-4kS" appends="YES" id="F4x-oX-r90"/>
+                            <outletCollection property="gestureRecognizers" destination="Wce-or-Hbg" appends="YES" id="HXC-t6-laW"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="AlarmButton2" destination="zIW-3x-rh3" id="SNv-Ol-9xU"/>
+                        <outlet property="label2" destination="sdo-8D-J3e" id="8eV-nM-LhE"/>
+                        <outlet property="timeButton2" destination="Lva-8d-ldA" id="3D6-Tk-KaJ"/>
+                        <outlet property="timePicker2" destination="KRl-tD-FwK" id="lhy-Zg-yfw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lv0-Ot-Oky" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="8qa-TR-4kS">
+                    <connections>
+                        <action selector="tapped2:" destination="g7O-X6-b86" id="VuF-RG-5Fr"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="Wce-or-Hbg">
+                    <connections>
+                        <action selector="longPress2:" destination="g7O-X6-b86" id="qcQ-VR-g5l"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="243.47826086956525" y="-272.28260869565219"/>
+        </scene>
+        <!--View Controller3-->
+        <scene sceneID="2Jm-bf-nUZ">
+            <objects>
+                <viewController storyboardIdentifier="sb03" id="yvT-8O-an1" customClass="ViewController3" customModule="do" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nHg-PQ-tnm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="B9G-fg-kQf">
+                                <rect key="frame" x="16" y="303" width="382" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="1" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hx7-hd-U4G">
+                                <rect key="frame" x="10" y="677" width="394" height="29"/>
+                                <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="17"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="0.59999999999999998" green="1" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="timeClicked3:" destination="yvT-8O-an1" eventType="touchUpInside" id="NFP-Yv-Fv7"/>
+                                </connections>
+                            </button>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftS-sx-WwX">
+                                <rect key="frame" x="0.0" y="451" width="414" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="551962800.93358099">
+                                    <!--2018-06-29 11:00:00 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lav-Ob-XbV">
+                                <rect key="frame" x="349" y="20" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="image-3"/>
+                                <connections>
+                                    <action selector="AlarmClicked3:" destination="yvT-8O-an1" eventType="touchUpInside" id="oPV-Hb-p7v"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.59999999999999998" green="1" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Ih4-wd-HWt" firstAttribute="trailing" secondItem="hx7-hd-U4G" secondAttribute="trailing" constant="10" id="9jY-0c-vWT"/>
+                            <constraint firstItem="ftS-sx-WwX" firstAttribute="trailing" secondItem="Ih4-wd-HWt" secondAttribute="trailing" id="HDX-tV-kdp"/>
+                            <constraint firstItem="hx7-hd-U4G" firstAttribute="top" secondItem="ftS-sx-WwX" secondAttribute="bottom" constant="10" id="I8o-nI-KUk"/>
+                            <constraint firstItem="Ih4-wd-HWt" firstAttribute="bottom" secondItem="hx7-hd-U4G" secondAttribute="bottom" constant="30" id="cDu-st-mAy"/>
+                            <constraint firstItem="ftS-sx-WwX" firstAttribute="leading" secondItem="Ih4-wd-HWt" secondAttribute="leading" id="wwi-8i-NLP"/>
+                            <constraint firstItem="hx7-hd-U4G" firstAttribute="leading" secondItem="Ih4-wd-HWt" secondAttribute="leading" constant="10" id="ytK-94-Lc9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ih4-wd-HWt"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="eTh-2W-2xq" appends="YES" id="X2S-Qq-96n"/>
+                            <outletCollection property="gestureRecognizers" destination="VpG-9V-UT2" appends="YES" id="0UV-By-tB5"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="AlarmButton3" destination="Lav-Ob-XbV" id="830-cJ-AVE"/>
+                        <outlet property="label3" destination="B9G-fg-kQf" id="5dh-ka-KxI"/>
+                        <outlet property="timeButton3" destination="hx7-hd-U4G" id="2bo-pH-Lfa"/>
+                        <outlet property="timePicker3" destination="ftS-sx-WwX" id="hO7-YZ-juF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SAY-Jr-2xi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="eTh-2W-2xq">
+                    <connections>
+                        <action selector="tapped3:" destination="yvT-8O-an1" id="lbT-3Q-snv"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="VpG-9V-UT2">
+                    <connections>
+                        <action selector="longPress3:" destination="yvT-8O-an1" id="0gM-E3-CHW"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="943" y="-272"/>
+        </scene>
+        <!--View Controller4-->
+        <scene sceneID="gBI-m4-khk">
+            <objects>
+                <viewController storyboardIdentifier="sb04" id="7VR-Pl-V8f" customClass="ViewController4" customModule="do" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SvN-af-5cd" customClass="viewcon">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vUc-cQ-5hV">
+                                <rect key="frame" x="16" y="303" width="382" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="0.59999999999999998" green="0.40000000000000002" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                            </textView>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Us3-ge-pN4">
+                                <rect key="frame" x="0.0" y="451" width="414" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="551962800.93358099">
+                                    <!--2018-06-29 11:00:00 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0el-eV-CQO">
+                                <rect key="frame" x="10" y="677" width="394" height="29"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.40000000000000002" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="17"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="0.80000000000000004" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="timeClicked4:" destination="7VR-Pl-V8f" eventType="touchUpInside" id="xBY-qX-3TY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4j6-hv-fvc">
+                                <rect key="frame" x="349" y="20" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="image-4"/>
+                                <connections>
+                                    <action selector="AlarmClicked4:" destination="7VR-Pl-V8f" eventType="touchUpInside" id="tys-BZ-acr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80000000000000004" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="J9n-l5-2Rk" firstAttribute="trailing" secondItem="0el-eV-CQO" secondAttribute="trailing" constant="10" id="0ZK-TA-rTe"/>
+                            <constraint firstItem="Us3-ge-pN4" firstAttribute="trailing" secondItem="J9n-l5-2Rk" secondAttribute="trailing" id="Dac-ze-oQk"/>
+                            <constraint firstItem="0el-eV-CQO" firstAttribute="top" secondItem="Us3-ge-pN4" secondAttribute="bottom" constant="10" id="OoN-1d-viA"/>
+                            <constraint firstItem="Us3-ge-pN4" firstAttribute="leading" secondItem="J9n-l5-2Rk" secondAttribute="leading" id="Zj2-mQ-rwn"/>
+                            <constraint firstItem="J9n-l5-2Rk" firstAttribute="bottom" secondItem="0el-eV-CQO" secondAttribute="bottom" constant="30" id="cfd-sZ-hhh"/>
+                            <constraint firstItem="0el-eV-CQO" firstAttribute="leading" secondItem="J9n-l5-2Rk" secondAttribute="leading" constant="10" id="qPf-x1-dbR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="J9n-l5-2Rk"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="bLU-UH-EXR" appends="YES" id="AAS-ud-QB0"/>
+                            <outletCollection property="gestureRecognizers" destination="Fsa-ve-m8S" appends="YES" id="T5c-YO-ztF"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="AlarmButton4" destination="4j6-hv-fvc" id="Btp-SA-tZP"/>
+                        <outlet property="label4" destination="vUc-cQ-5hV" id="DZi-1C-y6S"/>
+                        <outlet property="timeButton4" destination="0el-eV-CQO" id="H6v-gp-7eL"/>
+                        <outlet property="timePicker4" destination="Us3-ge-pN4" id="5Af-4C-fZb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VS4-IH-8dY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="bLU-UH-EXR">
+                    <connections>
+                        <action selector="tapped4:" destination="7VR-Pl-V8f" id="bwl-Ow-i1z"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="Fsa-ve-m8S">
+                    <connections>
+                        <action selector="longPress4:" destination="7VR-Pl-V8f" id="eFc-EQ-K2q"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1647" y="-272"/>
+        </scene>
+        <!--View Controller5-->
+        <scene sceneID="4vf-eB-72s">
+            <objects>
+                <viewController storyboardIdentifier="sb05" id="EmA-SQ-sgp" customClass="ViewController5" customModule="do" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xTQ-PU-4eo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1tp-kw-9Ba">
+                                <rect key="frame" x="16" y="303" width="382" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="0.98039215686274506" green="0.48627450980392156" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yn2-5z-OSf">
+                                <rect key="frame" x="10" y="677" width="394" height="29"/>
+                                <color key="backgroundColor" red="1" green="0.63607790423735122" blue="0.86970717382848428" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ADAM.CGPRO" family="ADAM.CG PRO" pointSize="17"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="1" green="1" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="timeClicked5:" destination="EmA-SQ-sgp" eventType="touchUpInside" id="8FR-lR-Dbi"/>
+                                </connections>
+                            </button>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nmh-H4-vu6">
+                                <rect key="frame" x="0.0" y="451" width="414" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="551962800.93358099">
+                                    <!--2018-06-29 11:00:00 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXH-ZI-66S">
+                                <rect key="frame" x="349" y="20" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="image-5"/>
+                                <connections>
+                                    <action selector="AlarmClicked5:" destination="EmA-SQ-sgp" eventType="touchUpInside" id="QDJ-6e-a1X"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Yn2-5z-OSf" firstAttribute="top" secondItem="Nmh-H4-vu6" secondAttribute="bottom" constant="10" id="42f-do-oAJ"/>
+                            <constraint firstItem="Nmh-H4-vu6" firstAttribute="trailing" secondItem="3c8-3b-2jv" secondAttribute="trailing" id="Aau-Fu-htZ"/>
+                            <constraint firstItem="Nmh-H4-vu6" firstAttribute="leading" secondItem="3c8-3b-2jv" secondAttribute="leading" id="fh0-Vc-Ogr"/>
+                            <constraint firstItem="3c8-3b-2jv" firstAttribute="trailing" secondItem="Yn2-5z-OSf" secondAttribute="trailing" constant="10" id="okh-Hw-hpA"/>
+                            <constraint firstItem="Yn2-5z-OSf" firstAttribute="leading" secondItem="3c8-3b-2jv" secondAttribute="leading" constant="10" id="xto-ux-jlf"/>
+                            <constraint firstItem="3c8-3b-2jv" firstAttribute="bottom" secondItem="Yn2-5z-OSf" secondAttribute="bottom" constant="30" id="xuQ-1F-anJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3c8-3b-2jv"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Iek-Vr-UUd" appends="YES" id="gRe-Nq-0zb"/>
+                            <outletCollection property="gestureRecognizers" destination="mh6-al-fXk" appends="YES" id="04m-0H-bBw"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="AlarmButton5" destination="rXH-ZI-66S" id="nCk-Ru-voZ"/>
+                        <outlet property="label5" destination="1tp-kw-9Ba" id="Rzk-yN-v6e"/>
+                        <outlet property="timeButton5" destination="Yn2-5z-OSf" id="wX0-jV-87R"/>
+                        <outlet property="timePicker5" destination="Nmh-H4-vu6" id="s60-Um-Oe6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qu9-ff-BpI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Iek-Vr-UUd">
+                    <connections>
+                        <action selector="tapped5:" destination="EmA-SQ-sgp" id="lcv-Yf-wWL"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="mh6-al-fXk">
+                    <connections>
+                        <action selector="longPress5:" destination="EmA-SQ-sgp" id="Ey9-Mv-nDH"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2375" y="-272"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="image" width="512" height="512"/>
+        <image name="image-10" width="512" height="512"/>
+        <image name="image-11" width="512" height="512"/>
+        <image name="image-12" width="512" height="512"/>
+        <image name="image-2" width="512" height="512"/>
+        <image name="image-3" width="512" height="512"/>
+        <image name="image-4" width="512" height="512"/>
+        <image name="image-5" width="512" height="512"/>
+        <image name="image-6" width="512" height="512"/>
+        <image name="image-7" width="512" height="512"/>
+        <image name="image-8" width="512" height="512"/>
+        <image name="image-9" width="512" height="512"/>
+    </resources>
+</document>
